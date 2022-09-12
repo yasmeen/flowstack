@@ -17,10 +17,13 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
     color: white;
-    background: black;
+    background: rgb(236 242 248);
   }
 }
+
+.app-bar {
+  background: linear-gradient(90deg, rgba(199,131,224,1) 0%, rgba(208,208,208,1) 35%, rgba(0,213,255,1) 100%)}
